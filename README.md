@@ -4,13 +4,13 @@ Test Amazon Website Using Selenium With Java Covering The following Test Cases T
 
 First Feature containing 1 Scenario about Searching for a Category
   Scenario: Search for an item's category
-    Given user in home page
-    When user write an CategoryName in search bar
-    And click to the search button
-    Then user should be taken to item's category search result page
+    1-Given user in home page
+    2-When user write an CategoryName in search bar
+    3-And click to the search button
+    4-Then user should be taken to item's category search result page
 
 Second Feature containing 1 Scenario about Adding an item to Cart
   Scenario: Add item to the cart
-    Given user in item page
-    When user add item to cart
-    Then the item should added successfully
+    1-Given user in item page
+    2-When user add item to cart
+    3-Then the item should added successfully
